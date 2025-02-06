@@ -1,9 +1,9 @@
 import openpyxl
 import smtplib, ssl
 
-mailbook = openpyxl.load_workbook(r"C:\Users\mrbin\OneDrive\Documents\Ams's Project\google_drive_download\mail.xlsx")
+mailbook = openpyxl.load_workbook(r"mail.xlsx")
 mailsheet = mailbook.active
-contentbook = openpyxl.load_workbook(r"C:\Users\mrbin\OneDrive\Documents\Ams's Project\google_drive_download\content.xlsx")
+contentbook = openpyxl.load_workbook(r"content.xlsx")
 contentsheet = contentbook.active
 rowth = 0
 colth = 0
